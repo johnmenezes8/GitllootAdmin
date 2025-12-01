@@ -8,54 +8,85 @@ import { AlertCircle, Check, X, Eye, MessageSquare } from "lucide-react";
 const ads = [
   {
     id: 1,
-    title: "Rare CS:GO Knife - Factory New",
-    price: "$450.00",
+    title: "AWP | Dragon Lore (Factory New)",
+    price: "$2,450.00",
     seller: "Alex Gamer",
     status: "Pending",
-    image: "https://placehold.co/600x400/1e1b2e/FFF?text=CSGO+Knife",
-    category: "Skins",
+    image: "https://placehold.co/600x400/1e1b2e/FFF?text=AWP+Dragon+Lore",
+    category: "CS:GO Skins",
     date: "2 hours ago"
   },
   {
     id: 2,
-    title: "League of Legends Account - Diamond II",
-    price: "$120.00",
+    title: "Karambit | Doppler (Sapphire)",
+    price: "$1,800.00",
     seller: "ProTrader99",
     status: "Pending",
-    image: "https://placehold.co/600x400/1e1b2e/FFF?text=LoL+Account",
-    category: "Accounts",
+    image: "https://placehold.co/600x400/1e1b2e/FFF?text=Karambit+Sapphire",
+    category: "CS:GO Skins",
     date: "5 hours ago"
   },
   {
     id: 3,
-    title: "Valorant Vandal Skin Bundle",
-    price: "$85.00",
+    title: "Valorant Account - Radiant (All Agents)",
+    price: "$350.00",
     seller: "ValoKing",
     status: "Reported",
-    image: "https://placehold.co/600x400/1e1b2e/FFF?text=Valorant+Skins",
-    category: "Items",
+    image: "https://placehold.co/600x400/1e1b2e/FFF?text=Valorant+Radiant",
+    category: "Accounts",
     date: "1 day ago",
-    reportReason: "Misleading description"
+    reportReason: "Account sharing suspicion"
   },
   {
     id: 4,
-    title: "WoW Gold - 1 Million - Illidan Server",
-    price: "$60.00",
+    title: "WoW Gold - 5 Million - Area 52",
+    price: "$400.00",
     seller: "GoldFarmer",
     status: "Approved",
-    image: "https://placehold.co/600x400/1e1b2e/FFF?text=WoW+Gold",
+    image: "https://placehold.co/600x400/1e1b2e/FFF?text=WoW+Gold+5M",
     category: "Currency",
     date: "3 days ago"
   },
   {
     id: 5,
-    title: "Fortnite Account - OG Skull Trooper",
-    price: "$300.00",
-    seller: "FortniteKid",
+    title: "AK-47 | Wild Lotus (Minimal Wear)",
+    price: "$1,200.00",
+    seller: "SkinCollector",
     status: "Rejected",
-    image: "https://placehold.co/600x400/1e1b2e/FFF?text=Fortnite",
-    category: "Accounts",
+    image: "https://placehold.co/600x400/1e1b2e/FFF?text=AK-47+Wild+Lotus",
+    category: "CS:GO Skins",
     date: "1 week ago"
+  },
+  {
+    id: 6,
+    title: "League of Legends - Challenger Account",
+    price: "$800.00",
+    seller: "LoLBooster",
+    status: "Pending",
+    image: "https://placehold.co/600x400/1e1b2e/FFF?text=LoL+Challenger",
+    category: "Accounts",
+    date: "30 mins ago"
+  },
+  {
+    id: 7,
+    title: "Tibia Coins - 2500 TC",
+    price: "$95.00",
+    seller: "TibiaTrader",
+    status: "Approved",
+    image: "https://placehold.co/600x400/1e1b2e/FFF?text=Tibia+Coins",
+    category: "Currency",
+    date: "4 hours ago"
+  },
+  {
+    id: 8,
+    title: "Rust - Big Grin Facemask",
+    price: "$450.00",
+    seller: "RustLord",
+    status: "Reported",
+    image: "https://placehold.co/600x400/1e1b2e/FFF?text=Rust+Big+Grin",
+    category: "Rust Skins",
+    date: "2 days ago",
+    reportReason: "Potential dupe item"
   }
 ];
 
