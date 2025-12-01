@@ -8,7 +8,9 @@ import {
   Layers, 
   Settings, 
   LogOut,
-  ShieldCheck
+  ShieldAlert,
+  FileText,
+  MessageSquare
 } from "lucide-react";
 import gitllootLogo from "@assets/generated_images/gitlloot_logo.png";
 
@@ -16,8 +18,11 @@ const sidebarItems = [
   { icon: LayoutDashboard, label: "Dashboard", href: "/" },
   { icon: Users, label: "Users", href: "/users" },
   { icon: ShoppingBag, label: "Ads & Moderation", href: "/ads" },
-  { icon: Wallet, label: "Financial", href: "/financial" },
+  { icon: ShieldAlert, label: "Reports & Security", href: "/reports" },
+  { icon: Wallet, label: "Financial Advanced", href: "/financial-advanced" },
   { icon: Layers, label: "Categories", href: "/categories" },
+  { icon: FileText, label: "Logs & Audit", href: "/logs" },
+  { icon: MessageSquare, label: "Support", href: "/support" },
   { icon: Settings, label: "Settings", href: "/settings" },
 ];
 

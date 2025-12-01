@@ -1,0 +1,111 @@
+Módulo de Denúncias & Segurança
+
+Sistema dedicado para relatórios de usuários e anúncios suspeitos.
+
+Funcionalidades:
+
+Denúncia de anúncios, usuários ou transações.
+
+Filtros por tipo de denúncia: fraude, item falso, comportamento inadequado, chargeback, scam.
+
+Atribuição de moderador responsável.
+
+Sistema de prioridade (baixa, média, alta).
+
+Resolução da denúncia e registro do motivo.
+
+Alertas em tempo real para denúncias urgentes.
+
+Integração com bloqueio automático de contas reincidentes.
+
+Vantagem:
+
+Reduz golpes e mantém a comunidade segura.
+
+2. 💰 Módulo Financeiro Avançado
+
+Controle interno de toda movimentação dentro da plataforma.
+
+Funcionalidades:
+
+Histórico de depósitos, vendas, compras, saques e taxas.
+
+Filtros por datas, usuários, status e métodos de pagamento.
+
+Dashboard financeiro com:
+
+Receita total
+
+Valores retidos no escrow
+
+Total liberado
+
+Cashback pago
+
+Taxas arrecadadas
+
+Geração de relatórios em CSV/PDF.
+
+Configuração de taxas da plataforma.
+
+Vantagem:
+
+Garante organização financeira e transparência operacional.
+
+3. 🧾 Módulo de Logs & Auditoria
+
+Rastreamento completo das ações administrativas e dos usuários.
+
+Funcionalidades:
+
+Registro de todas as ações: login, criação de anúncio, aprovação, suspensão, movimentação do escrow.
+
+Log separado para:
+
+Administradores
+
+Moderadores
+
+Usuários finais
+
+Rastreamento de IP.
+
+Filtros por tipo de ação, usuário, data.
+
+Exportação de logs.
+
+Vantagem:
+
+Ajuda a resolver disputas e identificar abusos internos ou externos.
+
+4. 💬 Módulo de Suporte & Atendimento
+
+Central para comunicação entre usuários e administradores.
+
+Funcionalidades:
+
+Sistema de tickets
+
+Chat interno com resposta rápida
+
+Filtros por situação: aberto, pendente, resolvido.
+
+Categorias de atendimento:
+
+Problemas com compra
+
+Itens não recebidos
+
+Suporte técnico
+
+Financeiro/Escrow
+
+Cashback
+
+Notificações e histórico completo do ticket.
+
+Avaliação do atendimento após encerramento.
+
+Vantagem:
+
+Melhora a experiência do usuário e reduz reclamações públicas.

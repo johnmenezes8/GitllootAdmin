@@ -9,8 +9,12 @@ import Dashboard from "@/pages/dashboard";
 import UsersPage from "@/pages/users";
 import AdsPage from "@/pages/ads";
 import FinancialPage from "@/pages/financial";
+import FinancialAdvancedPage from "@/pages/financial-advanced";
 import CategoriesPage from "@/pages/categories";
 import SettingsPage from "@/pages/settings";
+import ReportsPage from "@/pages/reports";
+import LogsPage from "@/pages/logs";
+import SupportPage from "@/pages/support";
 
 function Router() {
   return (
@@ -19,8 +23,12 @@ function Router() {
       <Route path="/users" component={UsersPage}/>
       <Route path="/ads" component={AdsPage}/>
       <Route path="/financial" component={FinancialPage}/>
+      <Route path="/financial-advanced" component={FinancialAdvancedPage}/>
       <Route path="/categories" component={CategoriesPage}/>
       <Route path="/settings" component={SettingsPage}/>
+      <Route path="/reports" component={ReportsPage}/>
+      <Route path="/logs" component={LogsPage}/>
+      <Route path="/support" component={SupportPage}/>
       <Route component={NotFound} />
     </Switch>
   );
