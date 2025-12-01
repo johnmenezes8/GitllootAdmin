@@ -1,0 +1,63 @@
+PROMPT PARA DESENVOLVER PAINEL ADMINISTRATIVO — GITLLOOT
+Desenvolva um sistema completo para a empresa Gitlloot, focado em itens de jogos eletrônicos. Quero que você crie toda a estrutura inicial, incluindo backend, frontend, banco de dados e lógica. O sistema deve utilizar tema na cor roxa, interface moderna, minimalista e responsiva.
+Módulo: Painel Administrativo (Admin Panel)
+Crie um painel administrativo com as seguintes funcionalidades:
+Gestão de Usuários
+	•	Listagem completa de usuários.
+	•	Criação, edição e remoção de usuários.
+	•	Visualização de histórico.
+	•	Sistema de bloqueio, suspensão ou reativação de contas irregulares.
+	•	Registro de motivos de punição e logs administrativos.
+Moderação de Anúncios
+	•	Listagem de anúncios publicados.
+	•	Aprovação, reprovação ou remoção.
+	•	Visualização de detalhes de cada anúncio.
+	•	Filtro por status: pendente, aprovado, reprovado, denunciado.
+	•	Histórico de moderação.
+Categorias
+	•	CRUD completo de categorias.
+	•	Subcategorias.
+	•	Ícones para cada categoria.
+	•	Ordenação.
+Cashback
+	•	Configuração de regras de cashback (percentual por compra, promoções, etc).
+	•	Histórico de cashback por usuário.
+	•	Divulgação de relatórios.
+Sistema ESCROW / Dinheiro Retido
+	•	Criar módulo para:
+	◦	Gerenciar pagamentos retidos.
+	◦	Liberar valores manualmente.
+	◦	Registrar disputas.
+	◦	Notificar comprador e vendedor.
+	◦	Relatórios financeiros.
+Estatísticas Gerais
+	•	Gráficos de:
+	◦	Total de usuários
+	◦	Total de anúncios
+	◦	Anúncios pendentes
+	◦	Transações em escrow
+	◦	Cashback gerado
+	•	Dashboard com visual moderno em roxo.
+Tecnologias desejadas
+Use tecnologias modernas. Sugestões (pode escolher as melhores):
+	•	Frontend: React, Next.js, Tailwind, ShadCN UI
+	•	Backend: Node.js (Express), Python (FastAPI), ou Laravel
+	•	Banco de Dados: PostgreSQL / MySQL / Supabase
+	•	Autenticação: JWT + níveis de permissão (Administrador / Moderador)
+	•	Design: roxo como cor predominante, tema dark
+Layout
+	•	Tema totalmente roxo (gradiente roxo escuro → roxo neon).
+	•	Tipografia moderna.
+	•	Ícones de games.
+	•	Menu lateral com animações suaves.
+	•	Dashboard com cards estatísticos.
+Objetivo
+Gerar estrutura completa do projeto, incluindo:
+	•	Rotas
+	•	Modelos
+	•	Banco de dados
+	•	Páginas principais
+	•	Componentes iniciais
+	•	Controle de acesso por permissão
+	•	Arquitetura escalável
+Crie a primeira versão funcional (MVP) já rodando.
