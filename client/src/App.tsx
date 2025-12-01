@@ -10,6 +10,7 @@ import UsersPage from "@/pages/users";
 import AdsPage from "@/pages/ads";
 import FinancialPage from "@/pages/financial";
 import CategoriesPage from "@/pages/categories";
+import SettingsPage from "@/pages/settings";
 
 function Router() {
   return (
@@ -19,6 +20,7 @@ function Router() {
       <Route path="/ads" component={AdsPage}/>
       <Route path="/financial" component={FinancialPage}/>
       <Route path="/categories" component={CategoriesPage}/>
+      <Route path="/settings" component={SettingsPage}/>
       <Route component={NotFound} />
     </Switch>
   );
